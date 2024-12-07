@@ -21,35 +21,53 @@ function [parameters, varargout] = ClancyINa_init_parameters_SGLT2i(type)
   if strcmp(type,'WT')
       parameters(4) = 12.83; % a1_P3; 
   elseif strcmp(type,'delKPQ')
-      parameters(4) = 11.62; 
+      parameters(4) = 12.07; 
   elseif strcmp(type,'R225Q')
-      parameters(4) = 9.62;
+      parameters(4) = 9.66;
+  elseif strcmp(type,'delK1500')
+      parameters(4) = 11.17;
+  elseif strcmp(type,'WT_empa')
+      parameters(4) = 13.07;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(4) = 10.88;
+      parameters(4) = 10.32;
   elseif strcmp(type,'R225Q_empa')
-      parameters(4) = 28.33;
+      parameters(4) = 28.80;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(4) = 9.49;
   end
   if strcmp(type,'WT')
       parameters(5) = 0.1433; % a1_P4;  
   elseif strcmp(type,'delKPQ')
-      parameters(5) = 0.1450; 
+      parameters(5) = 0.1419; 
   elseif strcmp(type,'R225Q')
-      parameters(5) = 0.1428;
+      parameters(5) = 0.1556;
+  elseif strcmp(type,'delK1500')
+      parameters(5) = 0.1535;
+  elseif strcmp(type,'WT_empa')
+      parameters(5) = 0.1379;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(5) = 0.1238;
+      parameters(5) = 0.1323;
   elseif strcmp(type,'R225Q_empa')
-      parameters(5) = 0.3058;
+      parameters(5) = 0.3132;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(5) = 0.1095;
   end
   if strcmp(type,'WT')
       parameters(6) = 179.3; % a1_P5;
   elseif strcmp(type,'delKPQ')
-      parameters(6) = 182.1; 
+      parameters(6) = 165.4; 
   elseif strcmp(type,'R225Q')
-      parameters(6) = 186.2;
+      parameters(6) = 164.2;
+  elseif strcmp(type,'delK1500')
+      parameters(6) = 326.9;
+  elseif strcmp(type,'WT_empa')
+      parameters(6) = 166.2;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(6) = 248.9;
+      parameters(6) = 208.8;
   elseif strcmp(type,'R225Q_empa')
-      parameters(6) = 15.63;
+      parameters(6) = 14.76;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(6) = 253.3;
   end
 
   % --- alpha2 ---
@@ -58,35 +76,53 @@ function [parameters, varargout] = ClancyINa_init_parameters_SGLT2i(type)
   if strcmp(type,'WT')
       parameters(9) = 18.75; % a2_P3;
   elseif strcmp(type,'delKPQ')
-      parameters(9) = 17.23; 
+      parameters(9) = 17.49; 
   elseif strcmp(type,'R225Q')
-      parameters(9) = 10.37;
+      parameters(9) = 9.78;
+  elseif strcmp(type,'delK1500')
+      parameters(9) = 12.66;
+  elseif strcmp(type,'WT_empa')
+      parameters(9) = 19.75;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(9) = 17.46;
+      parameters(9) = 17.97;
   elseif strcmp(type,'R225Q_empa')
-      parameters(9) = 19.47;
+      parameters(9) = 20.59;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(9) = 11.65;
   end
   if strcmp(type,'WT')
       parameters(10) = 0.2727; % a2_P4;  
   elseif strcmp(type,'delKPQ')
-      parameters(10) = 0.2702; 
+      parameters(10) = 0.2905; 
   elseif strcmp(type,'R225Q')
-      parameters(10) = 0.3090;
+      parameters(10) = 0.3323;
+  elseif strcmp(type,'delK1500')
+      parameters(10) = 0.2066;
+  elseif strcmp(type,'WT_empa')
+      parameters(10) = 0.2767;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(10) = 0.2633;
+      parameters(10) = 0.3323;
   elseif strcmp(type,'R225Q_empa')
       parameters(10) = 0.0;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(10) = 0.2941;
   end
   if strcmp(type,'WT')
       parameters(11) = 90.26; % a2_P5;  
   elseif strcmp(type,'delKPQ')
-      parameters(11) = 88.12; % a2_P5;   
+      parameters(11) = 95.37; % a2_P5;   
   elseif strcmp(type,'R225Q')
-      parameters(11) = 79.89;
+      parameters(11) = 107.0;  
+  elseif strcmp(type,'delK1500')
+      parameters(11) = 19.02;
+  elseif strcmp(type,'WT_empa')
+      parameters(11) = 92.30; 
   elseif strcmp(type,'delKPQ_empa')
-      parameters(11) = 75.19;
+      parameters(11) = 67.67;
   elseif strcmp(type,'R225Q_empa')
-      parameters(11) = 1;
+      parameters(11) = 1.09;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(11) = 27.42;
   end
 
   % --- alpha3 ---
@@ -95,35 +131,53 @@ function [parameters, varargout] = ClancyINa_init_parameters_SGLT2i(type)
   if strcmp(type,'WT')
       parameters(14) = 35.51; % a3_P3; 
   elseif strcmp(type,'delKPQ')
-      parameters(14) = 35.00;   
+      parameters(14) = 34.65;   
   elseif strcmp(type,'R225Q')
-      parameters(14) = 36.72;
+      parameters(14) = 37.21;
+  elseif strcmp(type,'delK1500')
+      parameters(14) = 39.79;
+  elseif strcmp(type,'WT_empa')
+      parameters(14) = 40.18;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(14) = 30.29;
+      parameters(14) = 34.17;
   elseif strcmp(type,'R225Q_empa')
-      parameters(14) = 10.81;
+      parameters(14) = 11.55;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(14) = 39.04;
   end
   if strcmp(type,'WT')
       parameters(15) = 0.2106; % a3_P4;
   elseif strcmp(type,'delKPQ')
-      parameters(15) = 0.2499; 
+      parameters(15) = 0.2192; 
   elseif strcmp(type,'R225Q')
-      parameters(15) = 0.2410;
+      parameters(15) = 0.1422;
+  elseif strcmp(type,'delK1500')
+      parameters(15) = 0.1619;
+  elseif strcmp(type,'WT_empa')
+      parameters(15) = 0.2098;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(15) = 0.2172;
+      parameters(15) = 0.2128;
   elseif strcmp(type,'R225Q_empa')
-      parameters(15) = 0.4673;
+      parameters(15) = 0.5102;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(15) = 0.1563;  
   end
   if strcmp(type,'WT')
       parameters(16) = 35.09; % a3_P5;
   elseif strcmp(type,'delKPQ')
-      parameters(16) = 33.75;    
+      parameters(16) = 33.95;    
   elseif strcmp(type,'R225Q')
-      parameters(16) = 29.73;
+      parameters(16) = 36.46;
+  elseif strcmp(type,'delK1500')
+      parameters(16) = 39.13;
+  elseif strcmp(type,'WT_empa')
+      parameters(16) = 29.34; 
   elseif strcmp(type,'delKPQ_empa')
-      parameters(16) = 27.87;
+      parameters(16) = 33.32;
   elseif strcmp(type,'R225Q_empa')
-      parameters(16) = 13.17;
+      parameters(16) = 12.70;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(16) = 43.26;
   end
 
   % --- beta1 ---
@@ -148,132 +202,204 @@ function [parameters, varargout] = ClancyINa_init_parameters_SGLT2i(type)
   if strcmp(type,'WT')
       parameters(27) = 1.825e-04; % a5_P1;
   elseif strcmp(type,'delKPQ')
-      parameters(27) = 2.231e-04; %   
+      parameters(27) = 2.252e-04; %   
   elseif strcmp(type,'R225Q')
-      parameters(27) = 2.389e-04;
+      parameters(27) = 2.243e-04;
+  elseif strcmp(type,'delK1500')
+      parameters(27) = 7.902e-06;
+  elseif strcmp(type,'WT_empa')
+      parameters(27) = 1.875e-04;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(27) = 3.234e-04;
+      parameters(27) = 2.897e-04;
   elseif strcmp(type,'R225Q_empa')
-      parameters(27) = 8.580e-06;
+      parameters(27) = 8.468e-06;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(27) = 6.543e-06;
   end
   if strcmp(type,'WT')
       parameters(28) = 0.3764; % a5_P2;
   elseif strcmp(type,'delKPQ')
-      parameters(28) = 0.3744;  
+      parameters(28) = 0.3598;  
   elseif strcmp(type,'R225Q')
-      parameters(28) = 0.3984;
+      parameters(28) = 0.4048;
+  elseif strcmp(type,'delK1500')
+      parameters(28) = 0.4689;
+  elseif strcmp(type,'WT_empa')
+      parameters(28) = 0.3789; 
   elseif strcmp(type,'delKPQ_empa')
-      parameters(28) = 0.3799;
+      parameters(28) = 0.3592;
   elseif strcmp(type,'R225Q_empa')
       parameters(28) = 0.4990;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(28) = 0.5304;
   end
   if strcmp(type,'WT')
       parameters(29) = 5.442; %  a5_P3;
   elseif strcmp(type,'delKPQ')
-      parameters(29) = 5.940;  
+      parameters(29) = 5.829;  
   elseif strcmp(type,'R225Q')
-      parameters(29) = 5.829;
+      parameters(29) = 6.248;
+  elseif strcmp(type,'delK1500')
+      parameters(29) = 4.339;
+  elseif strcmp(type,'WT_empa')
+      parameters(29) = 5.624;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(29) = 6.251;
+      parameters(29) = 6.198;
   elseif strcmp(type,'R225Q_empa')
       parameters(29) = 4.863;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(29) = 4.834;
   end
 
   % --- beta5 ---
   if strcmp(type,'WT')
       parameters(30) = 0.0373; % b5_P1; 
   elseif strcmp(type,'delKPQ')
-      parameters(30) = 0.0397;  
+      parameters(30) = 0.0366;  
   elseif strcmp(type,'R225Q')
-      parameters(30) = 0.0696;
+      parameters(30) = 0.0479;
+  elseif strcmp(type,'delK1500')
+      parameters(30) = 0.4017;
+  elseif strcmp(type,'WT_empa')
+      parameters(30) = 0.0332;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(30) = 0.0599;
+      parameters(30) = 0.0385;
   elseif strcmp(type,'R225Q_empa')
-      parameters(30) = 0.377;
+      parameters(30) = 0.3700;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(30) = 0.3407;
   end
 
-  if strcmp(type,'R225Q_empa')
-      parameters(31) = 4.19e-05; % b5_P2;
-  else
+  if strcmp(type,'WT')
+      parameters(31) = 2.0e-05;  % b5_P2;
+  elseif strcmp(type,'delKPQ')
       parameters(31) = 2.0e-05; 
+  elseif strcmp(type,'R225Q')
+      parameters(31) = 2.0e-05; 
+  elseif strcmp(type,'delK1500')
+      parameters(31) = 4.19e-05; 
+  elseif strcmp(type,'WT_empa')
+      parameters(31) = 2.0e-05;  
+  elseif strcmp(type,'delKPQ_empa')
+      parameters(31) = 2.0e-05; 
+  elseif strcmp(type,'R225Q_empa')
+      parameters(31) = 4.19e-05; 
+  elseif strcmp(type,'delK1500_empa')
+      parameters(31) = 4.19e-05; 
   end
 
   % --- alpha6 ---
   if strcmp(type,'WT')
       parameters(32) = 24.44; % a6_P1;
   elseif strcmp(type,'delKPQ')
-      parameters(32) = 24.75; 
+      parameters(32) = 24.50; 
   elseif strcmp(type,'R225Q')
-      parameters(32) = 23.69;
+      parameters(32) = 26.00;
+  elseif strcmp(type,'delK1500')
+      parameters(32) = 18.73; 
+  elseif strcmp(type,'WT_empa')
+      parameters(32) = 23.57;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(32) = 20.02;
+      parameters(32) = 20.28;
   elseif strcmp(type,'R225Q_empa')
-      parameters(32) = 22.12;
+      parameters(32) = 21.61;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(32) = 17.29;
   end
 
   % --- beta6 ---
   if strcmp(type,'WT')
       parameters(33) = 0.5033; % b6_P1;
   elseif strcmp(type,'delKPQ')
-      parameters(33) = 0.5479;  
+      parameters(33) = 0.4782;  
   elseif strcmp(type,'R225Q')
-      parameters(33) = 0.4756;
+      parameters(33) = 0.3581;
+  elseif strcmp(type,'delK1500')
+      parameters(33) = 0.3677;  
+  elseif strcmp(type,'WT_empa')
+      parameters(33) = 0.5178;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(33) = 0.5042;
+      parameters(33) = 0.4159;
   elseif strcmp(type,'R225Q_empa')
-      parameters(33) = 0.3531;
+      parameters(33) = 0.3348;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(33) = 0.3441;  
   end
 
   % --- alpha7 ---
   if strcmp(type,'WT')
       parameters(34) = 2050; % a7_P1;
   elseif strcmp(type,'delKPQ')
-      parameters(34) = 2377;
+      parameters(34) = 2155;
   elseif strcmp(type,'R225Q')
-      parameters(34) = 2465;
+      parameters(34) = 2239;
+  elseif strcmp(type,'delK1500')
+      parameters(34) = 234.1;
+  elseif strcmp(type,'WT_empa')
+      parameters(34) = 2338;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(34) = 1830;
+      parameters(34) = 2256;
   elseif strcmp(type,'R225Q_empa')
-      parameters(34) = 225.7;
+      parameters(34) = 212.6;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(34) = 200.1;
   end
   
   % --- beta7 ---
   if strcmp(type,'WT')
       parameters(35) = 0.2130; % b7_P1;
   elseif strcmp(type,'delKPQ')
-      parameters(35) = 0.2086; %  
+      parameters(35) = 0.2124;  
   elseif strcmp(type,'R225Q')
-      parameters(35) = 0.2110;
+      parameters(35) = 0.2192;
+  elseif strcmp(type,'delK1500')
+      parameters(35) = 0.3007;  
+  elseif strcmp(type,'WT_empa')
+      parameters(35) = 0.2198;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(35) = 0.2289;
+      parameters(35) = 0.2030;
   elseif strcmp(type,'R225Q_empa')
-      parameters(35) = 0.3038;
+      parameters(35) = 0.3004;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(35) = 0.3640;  
   end
 
   % --- alpha8 ---
   if strcmp(type,'WT')
-      parameters(36) = 2.090e-05; % a8_P1;
+      parameters(36) = 1.538e-05; % a8_P1; % revised from 2.090e-05
   elseif strcmp(type,'delKPQ')
-      parameters(36) = 2.471e-05; 
+      parameters(36) = 1.988e-05; 
   elseif strcmp(type,'R225Q')
-      parameters(36) = 1.658e-05;
+      parameters(36) = 2.152e-05;
+  elseif strcmp(type,'delK1500')
+      parameters(36) = 2.313e-05;
+  elseif strcmp(type,'WT_empa')
+      parameters(36) = 1.119e-05;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(36) = 2.290e-05;
+      parameters(36) = 1.287e-05;
   elseif strcmp(type,'R225Q_empa')
-      parameters(36) = 2.481e-05;
+      parameters(36) = 2.098e-05;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(36) = 1.113e-05;
   end
 
   % --- beta8 ---
   if strcmp(type,'WT')
-      parameters(37) = 2.900e-03; % b8_P1;
+      parameters(37) = 3.664e-03; % b8_P1; %revised from 2.900e-03;
   elseif strcmp(type,'delKPQ')
-      parameters(37) = 1.056e-03;
+      parameters(37) = 1.565e-03;
   elseif strcmp(type,'R225Q')
-      parameters(37) = 1.271e-03;
+      parameters(37) = 1.600e-03;
+  elseif strcmp(type,'delK1500')
+      parameters(37) = 3.800e-03;
+  elseif strcmp(type,'WT_empa')
+      parameters(37) = 4.500e-03;
   elseif strcmp(type,'delKPQ_empa')
-      parameters(37) = 1.700e-03;
+      parameters(37) = 2.1e-03;
   elseif strcmp(type,'R225Q_empa')
-      parameters(37) = 2.980e-03;
+      parameters(37) = 3.500e-03;
+  elseif strcmp(type,'delK1500_empa')
+      parameters(37) = 5.500e-03;
   end
 
   % --- Environment ------
