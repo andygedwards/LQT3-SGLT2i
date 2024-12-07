@@ -8,6 +8,7 @@ Additional code for the optimizations used in model construction is available up
 
 ## Installation and Usage
 The package was built with Matlab Release 2023b and runs as a standalone structure if you have an existing Matlab installation. Install as a direct download or clone the repository:
+
 `git clone https://github.com/andygedwards/LQT3-SGLT2i.git`
 
 Once installed, the simulations underlying published Figures 6 and 7 are reproduced by running files run_V_clamp_SGLT2i.m and run_TorORd_SGLT2i.m, respectively. Additional plotting for each set of simulations is implemented in plot_TorORd_SGLT2i.m and plot_V_clamp_SGLT2i.m.
