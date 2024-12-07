@@ -3,7 +3,7 @@ Code and data for cardiac sodium channel and ventricular myocyte simulations pub
 
 
 ## Overview
-The Matlab code in this package underlies all simulations presented in Lunsonga *et al.*. Also included are select experimental data from the study that are used for fitting and validating the models.
+The Matlab code in this package underlies all simulations presented in Lunsonga *et al.* Also included are select experimental data from the study that are used for fitting and validating the models.
 
 Additional code for the optimizations used in model construction is available upon request. Please contact Andy Edwards: [andy@simula.no] for any such requests, or other queries.
 
