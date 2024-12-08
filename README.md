@@ -17,5 +17,5 @@ Once installed, the simulations underlying published Figures 6 and 7 are reprodu
 We provide this code under Creative Commons [BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/) conditions.
 
 ## Support
-This development was supported by the [Computational Physiology Department](https://www.simula.no/research/research-departments/computational-physiology) at [Simula Research Laboratory](https://www.simula.no). Please find our related packages and projects at [Github](https://computationalphysiology.github.io/). 
+This project is a collaboration between the [Computational Physiology Department](https://www.simula.no/research/research-departments/computational-physiology) at [Simula Research Laboratory](https://www.simula.no) and the [Light Lab](https://thelightlab.ca/) at the University of Alberta. Please find related packages and projects at [Github](https://computationalphysiology.github.io/). 
 
