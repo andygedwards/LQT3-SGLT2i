@@ -6,8 +6,11 @@ The Matlab code in this package underlies all simulations presented in Lunsonga 
 
 Additional code for the optimizations used in model construction is available upon request. Please contact Andy Edwards: [andy@simula.no] for any such requests, or other queries.
 
+## Requirements
+The package was built with Matlab Release 2023b and runs as a standalone structure if you have an existing Matlab installation. The Curve Fitting Toolbox is required for basic functionality. For additional optimization functions the Statistics and Machine Learning Toolbox is required.
+
 ## Installation and Usage
-The package was built with Matlab Release 2023b and runs as a standalone structure if you have an existing Matlab installation. Install as a direct download or clone the repository:
+Install as a direct download or clone the repository:
 
 `git clone https://github.com/andygedwards/LQT3-SGLT2i.git`
 
